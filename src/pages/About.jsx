@@ -49,7 +49,7 @@ const About = () => {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-5xl mx-auto">
             
-            {/* Founder 1: Neha */}
+            {/* Founder 1: Ashish */}
             <motion.div 
               whileHover={{ y: -10 }}
               className="relative group bg-gray-50 dark:bg-brand-800 rounded-3xl p-8 border border-gray-100 dark:border-gray-700 shadow-xl overflow-hidden"
@@ -59,9 +59,9 @@ const About = () => {
               </div>
               <div className="relative z-10">
                 <div className="w-20 h-20 bg-brand-gold rounded-full flex items-center justify-center text-3xl font-bold text-white mb-6 shadow-lg shadow-brand-gold/30">
-                  NM
+                  AJ
                 </div>
-                <h3 className="text-2xl font-bold text-brand-900 dark:text-white">Ms. Neha Manekar</h3>
+                <h3 className="text-2xl font-bold text-brand-900 dark:text-white">Ms. Ashish Jaiswar</h3>
                 <p className="text-brand-gold font-medium uppercase tracking-wider text-sm mb-4">Principal Interior Designer</p>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                   "Design is not just about how it looks, but how it feels. My focus is on creating spaces that reflect the client's personality while maximizing utility."
@@ -69,7 +69,7 @@ const About = () => {
               </div>
             </motion.div>
 
-            {/* Founder 2: Irshad */}
+            {/* Founder 2: Vivek */}
             <motion.div 
               whileHover={{ y: -10 }}
               className="relative group bg-gray-50 dark:bg-brand-800 rounded-3xl p-8 border border-gray-100 dark:border-gray-700 shadow-xl overflow-hidden"
@@ -79,9 +79,9 @@ const About = () => {
               </div>
               <div className="relative z-10">
                 <div className="w-20 h-20 bg-brand-900 dark:bg-white rounded-full flex items-center justify-center text-3xl font-bold text-white dark:text-brand-900 mb-6 shadow-lg">
-                  IK
+                  VJ
                 </div>
-                <h3 className="text-2xl font-bold text-brand-900 dark:text-white">Mr. Irshad Khan</h3>
+                <h3 className="text-2xl font-bold text-brand-900 dark:text-white">Mr. Vivek Jaiswar</h3>
                 <p className="text-brand-gold font-medium uppercase tracking-wider text-sm mb-4">Expert Technical Head</p>
                 <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
                   "A great design fails without perfect execution. I ensure that every wallpaper, flooring panel, and fabric is installed with 100% technical precision."

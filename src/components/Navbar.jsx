@@ -20,12 +20,12 @@ const Navbar = ({ theme, toggleTheme }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-20 items-center">
           
-          {/* Logo */}
-          <Link to="/" onClick={closeMenu} className="flex-shrink-0 flex items-center cursor-pointer">
-            <span className="text-2xl font-bold tracking-tighter text-brand-900 dark:text-white">
-              AMBIENCE <span className="text-brand-gold font-light">DECOR</span>
-            </span>
-          </Link>
+      {/* Logo */}
+      <Link to="/" onClick={closeMenu} className="flex-shrink-0 flex items-center cursor-pointer">
+        <span className="text-2xl font-bold tracking-tighter text-brand-900 dark:text-white">
+          VISTARA <span className="text-brand-gold font-serif italic">LIVING</span>
+        </span>
+      </Link>
           
           {/* Desktop Menu (Hidden on Mobile) */}
           <div className="hidden md:flex space-x-8 items-center font-medium text-sm">
