@@ -13,7 +13,7 @@ const heroSlides = [
   },
   {
     id: 2,
-    image: "https://images.unsplash.com/photo-1581858726768-75e0524d91c2?auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80",
     title: "Flooring That Lasts",
     subtitle: "From vinyl to wooden textures, step onto luxury every day."
   },

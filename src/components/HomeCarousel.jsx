@@ -4,13 +4,44 @@ import { motion } from 'framer-motion';
 import { ChevronRight, ArrowRight, Layers, Image, Scissors, Sun, Grid, Box, Trees, Flower } from 'lucide-react';
 
 // Reuse existing data structure
+// Fixed & verified Unsplash images
 const products = [
-  { title: 'Wallpapers', desc: 'Indian & Imported', icon: <Image />, img: 'https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=crop&q=80' },
-  { title: 'Floorings', desc: 'Vinyl & Wooden', icon: <Layers />, img: 'https://images.unsplash.com/photo-1581858726768-75e0524d91c2?auto=format&fit=crop&q=80' },
-  { title: 'Curtains', desc: 'Luxury Fabrics', icon: <Scissors />, img: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80' },
-  { title: 'Blinds', desc: 'Light Control', icon: <Sun />, img: 'https://images.unsplash.com/photo-1517174637840-7b243b9df7d7?auto=format&fit=crop&q=80' },
-  { title: 'PVC Panels', desc: 'Wall Paneling', icon: <Grid />, img: 'https://images.unsplash.com/photo-1620626012053-1c169996df87?auto=format&fit=crop&q=80' },
-  { title: 'Glass Films', desc: 'Privacy Solutions', icon: <Box />, img: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80' },
+  {
+    title: 'Wallpapers',
+    desc: 'Indian & Imported',
+    icon: <Image />,
+    img: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80'
+  },
+  {
+    title: 'Floorings',
+    desc: 'Vinyl & Wooden',
+    icon: <Layers />,
+    img: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80'
+  },
+  {
+    title: 'Curtains',
+    desc: 'Luxury Fabrics',
+    icon: <Scissors />,
+    img: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&q=80'
+  },
+  {
+    title: 'Blinds',
+    desc: 'Light Control',
+    icon: <Sun />,
+    img: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&q=80'
+  },
+  {
+    title: 'PVC Panels',
+    desc: 'Wall Paneling',
+    icon: <Grid />,
+    img: 'https://images.unsplash.com/photo-1615874959474-d609969a20ed?auto=format&fit=crop&q=80'
+  },
+  {
+    title: 'Glass Films',
+    desc: 'Privacy Solutions',
+    icon: <Box />,
+    img: 'https://images.unsplash.com/photo-1527030280862-64139fba04ca?auto=format&fit=crop&q=80'
+  }
 ];
 
 const HomeCarousel = () => {
