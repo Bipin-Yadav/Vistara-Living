@@ -214,7 +214,7 @@ const Products = () => {
                     <CheckCircle size={16} className="text-green-500" /> Project Highlight
                   </h4>
                   <p className="text-gray-600 dark:text-gray-300 leading-relaxed text-sm">
-                    {selectedProject.description || "A premium installation completed by Ambience Decor experts."}
+                    {selectedProject.description || "A premium installation completed by Vistara Living experts."}
                   </p>
                 </div>
 

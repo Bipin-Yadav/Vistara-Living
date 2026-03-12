@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const WhatsAppButton = () => {
   // Replace with the real phone number (e.g., 917021827090)
   const phoneNumber = "917021827090"; 
-  const message = "Hi Ambience Decor, I visited your website and would like to inquire about your services.";
+  const message = "Hi Vistara Living, I visited your website and would like to inquire about your services.";
 
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 

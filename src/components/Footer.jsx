@@ -74,7 +74,7 @@ const Footer = () => {
       </div>
 
       <div className="border-t border-gray-800 mt-16 pt-8 text-center text-gray-500 text-sm flex flex-col md:flex-row justify-between items-center px-4">
-        <span>© {new Date().getFullYear()} Ambience Decor. All rights reserved.</span>
+        <span>© {new Date().getFullYear()} Vistara Living. All rights reserved.</span>
         <span className="mt-2 md:mt-0 opacity-50 text-xs">Developed by Bipin DevOps</span>
       </div>
     </footer>

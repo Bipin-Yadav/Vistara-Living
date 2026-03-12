@@ -32,7 +32,7 @@ const About = () => {
               </span>
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
-              Since 2015, Ambience Decor has been redefining spaces in Mumbai. 
+              Since 2015, Vistara Living has been redefining spaces in Mumbai. 
               We bridge the gap between <strong>Design Vision</strong> and <strong>Technical Perfection</strong>.
             </p>
           </motion.div>
@@ -125,7 +125,7 @@ const About = () => {
             <div>
               <span className="text-brand-gold font-bold uppercase tracking-wider text-sm">Our Promise</span>
               <h2 className="text-3xl md:text-4xl font-bold text-brand-900 dark:text-white mt-2 mb-6">
-                Why Ambience Decor?
+                Why Vistara Living?
               </h2>
               <p className="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
                 We understand that renovating your home is a big decision. That's why we focus on transparency, budget, and timing.

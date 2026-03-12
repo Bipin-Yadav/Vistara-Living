@@ -17,7 +17,7 @@ const Home = () => {
         <div className="max-w-3xl mx-auto">
           <span className="text-brand-gold font-bold tracking-widest uppercase text-xs mb-3 block">Since 2015</span>
           <h2 className="text-2xl md:text-4xl font-light text-brand-900 dark:text-white mb-6 leading-relaxed">
-            "We believe that every wall is a canvas and every floor sets a stage. <strong className="font-bold">Ambience Decor</strong> transforms empty spaces into living experiences."
+            "We believe that every wall is a canvas and every floor sets a stage. <strong className="font-bold">Vistara Living</strong> transforms empty spaces into living experiences."
           </h2>
           <div className="w-20 h-1 bg-brand-gold mx-auto rounded-full"></div>
         </div>
