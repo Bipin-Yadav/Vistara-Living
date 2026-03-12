@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Brand Section */}
         <div>
           <Link to="/" className="text-2xl font-bold tracking-tighter text-white">
-            Vistara <span className="text-brand-gold font-light">Living</span>
+            VISTARA <span className="text-brand-gold font-light">Living</span>
           </Link>
           <p className="mt-6 text-gray-400 leading-relaxed">
             Bringing you a high-end range of interior products. We design spaces that look rich, elegant, and feel like home.
